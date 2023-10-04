@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table tr td, th{
+            border: 2px solid peru;
+            padding: 2px 5px;
+            
+        }
+        table{
+            border-collapse: collapse ;
+        }
+        td{
+            text-align: center;
+        }
+        th{
+            width: ;
+        }
+
+    </style>
+    <link rel="stylesheet" href="style/semantic.css">
+</head>
+<body>
+    <header style="text-align: center; ">
+        <nav style="background-color: rgba(0, 0, 0, 0.438);">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="form.html">Form</a></li>
+                <!-- <li><a href="practice 1.html">Practice</a></li> -->
+            </ul>
+        </nav>
+        <h1 style="text-align: center; font-size: 50px;"><strong>Welcome to the table section</strong></h1>
+    </header>
+    <!-- <h1>Welcome to the table section</h1> -->
+    <table>
+        <h1>Student Details</h1>
+        <thead>
+            <tr>
+                <th>Sl. no</th>
+                <th>Student name</th>
+                <th>Department</th>
+                <th>Batch</th>
+                <th>Mobile No.</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td style="text-align: left;">Sijan Shahriar</td>
+                <td>CSE</td>
+                <td>111</td>
+                <td>01749092000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td style="text-align: left;">Sajedul Islam</td>
+                <td>CSE</td>
+                <td>111</td>
+                <td>01700983737</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td style="text-align: left;">Nafiur Rahman</td>
+                <td>CSE</td>
+                <td>109</td>
+                <td>01749000000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td style="text-align: left;">Naimur Rahman Novel</td>
+                <td>CE</td>
+                <td>97</td>
+                <td>01747474747</td>
+            </tr>
+        </tbody>
+    </table> <br><br>
+    <table>
+        <h1>Class Routine</h1>
+        <thead>
+            <tr>
+                <th>Time & Day</th>
+                <th>2:00-2:50</th>
+                <th>2:50-3:40</th>
+                <th>3:40-4:30</th>
+                <th>4:30-5:20</th>
+                <th>5:20-6:10</th>
+                <th>6:10-7:00</th>
+                <th>7:00-7:50</th>
+                <th>7:50-8:40</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Friday</td>
+                <td colspan="2">Structured Programming Language</td>
+                <!-- <td></td> -->
+                <td colspan="2">Communicative English</td>
+                <!-- <td></td> -->
+                <td colspan="2">Engineering Drawing</td>
+                <!-- <td></td> -->
+                <td colspan="2">Engineering Drawing Lab</td>
+                <!-- <td></td> -->
+            </tr>
+            <tr>
+                <th>Time & Day</th>
+                <th colspan="2">6:00-7:40</th>
+                <!-- <th></th> -->
+                <!-- <th></th> -->
+                <th colspan="2">7:40-9:20</th>
+                <th colspan="4"></th>
+                <!-- <th></th>
+                <th></th>
+                <th></th> -->
+                
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td colspan="2">Linear Algebra & Coordinate Geometry</td>
+                <td colspan="2">Physics</td>
+                <td colspan="4"></td>
+                <!-- <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td> -->
+            </tr>
+            <tr>
+                <th>Time & Day</th>
+                <th>6:00-6:40</th>
+                <th>6:40-7:20</th>
+                <th>7:20-8:00</th>
+                <th>8:00-8:40</th>
+                <th>8:40-9:20</th>
+                <th colspan="3"></th>
+                <!-- <th></th>
+                <th></th> -->
+                
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Communicative English</td>
+                <td>Engineering Drawing</td>
+                <td>Structured Programming Language</td>
+                <td>Physics</td>
+                <td>Liner Algebra & Coordinate Geometry</td>
+                <td colspan="3"></td>
+                <!-- <td></td>
+                <td></td> -->
+            </tr>
+        </tbody>
+        <thead>
+            <tr>
+                <th>Time & Day</th>
+                <th colspan="2">6:00-7:40</th>
+                <th colspan="2">7:40-9:20</th>
+                <th colspan="4"></th>
+                <!-- <th></th>
+                <th></th>
+                <th></th> -->
+                <!-- <th></th>
+                <th></th> -->
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tuesday</td>
+                <td colspan="2">Physics Lab</td>
+                
+                <td colspan="2">Structured Programming Language Lab</td>
+                <td colspan="4"></td>
+                <!-- <td></td>
+                <td></td>
+                <td></td>
+                <td></td> -->
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitha Form</title>
+    <style>
+        form label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="style/semantic.css">
+</head>
+<body>
+    <header style="text-align: center; ">
+        <nav style="background-color: rgba(0, 0, 0, 0.438);">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="form.html">Form</a></li>
+                <!-- <li><a href="practice 1.html">Practice</a></li> -->
+            </ul>
+        </nav>
+        <h1 style="text-align: center; font-size: 50px;"><strong>Welcome to the Pitha Shop</strong></h1>
+    </header>
+    <main>
+        <section class="form">
+            <form>
+                <label for="Name">Your Name:
+                    <input type="text" placeholder="Type your name">
+                </label>
+                <label for="Mobile">Your Mobile:
+                    <input type="number" placeholder="Type your mobile no">
+                </label>
+                <label for="email">Your E-mail:
+                    <input type="email" placeholder="Type your email">
+                </label>
+                <fieldset>
+                    <legend>Pick one pitha type</legend>
+                    <label for="Chitoy">
+                        <input type="radio" name="pitha" id="Chitoy"> Chitoy
+                    </label>
+                    <label for="Vapa">
+                        <input type="radio" name="pitha" id="Vapa"> Vapa
+                    </label>
+                    <label for="Patishapta">
+                        <input type="radio" name="pitha" id="Patishapta"> Patishapta
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Select one or more vorta item</legend>
+                    <label for="Shorisha">
+                        <input type="checkbox" name="vorta" id="Shorisha">Shorisha
+                    </label>
+                    <label for="Green Chili">
+                        <input type="checkbox" name="vorta" id="Green Chili">Green Chili
+                    </label>
+                    <label for="Dhonia pata">
+                        <input type="checkbox" name="vorta" id="Dhonia pata">Dhonia pata
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Special Demands</legend>
+                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                </fieldset>
+                <!-- <button type="reset">Reset</button>
+                <button type="submit">Submit</button> -->
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+</body>
+</html>

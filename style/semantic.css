@@ -1,0 +1,27 @@
+nav li{
+    list-style: none;
+    display: inline;
+    padding: 10;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    padding: 2px 5px;
+    font-family: sans-serif;
+    border: 2px;
+    color: antiquewhite;"
+}
+
+
+a:hover{
+    background-color: rgb(86, 111, 253);
+    color: black;
+    border-radius: 0 20px;
+}
+
+p{
+    text-align: justify;
+}
